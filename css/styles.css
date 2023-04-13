@@ -1,4 +1,3 @@
-
 p,
 h1,
 h2,
@@ -45,6 +44,20 @@ body {
 }
 
 /**--------------------HEADER------------------**/
+
+.header-box {
+  box-sizing: border-box;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-bottom: 96px;
+}
+
+.header-container {
+  display: flex;
+  padding-top: 24px;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -63,6 +76,7 @@ body {
   line-height: 1.17;
   color: #2e2f42;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .navigation {
@@ -71,9 +85,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 .navigation:is(:hover, :focus) {
   color: var(--second-link-color);
+}
+.header-list {
+  display: flex;
+  gap: 30px;
+}
+.contact {
+  display: flex;
+  gap: 40px;
 }
 
 .header-contact {
@@ -100,8 +125,14 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color:var(--body-background-color);
+  color: var(--body-background-color);
   background-color: var(--color-text);
+}
+.hero-img {
+  box-sizing: border-box;
+  
+  align-items: center;
+  flex: column;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -165,10 +196,19 @@ body {
   cursor: pointer;
   color: var(--logo-color);
   background: var(--second-footer-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 .hero-button:is(:hover, :focus) {
-  background-color:var(--second-link-color);
+  background-color: var(--second-link-color);
   color: var(--second-color-buttom);
+}
+.btn-style {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 /**--------------------HERO img------------------**/
 
@@ -199,13 +239,13 @@ body {
 }
 
 .footer-bottom {
-  font-family: 'Roboto'sans-serif;
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--second-footer-color);
+  color: var(--second-footer-color);
 }
 .logo-studio-foot {
   font-family: "Raleway", sans-serif;
