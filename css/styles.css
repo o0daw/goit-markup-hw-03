@@ -130,7 +130,7 @@ body {
 }
 .hero-img {
   box-sizing: border-box;
-  
+
   align-items: center;
   flex: column;
 }
@@ -226,6 +226,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.hero-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 /**--------------------FOOTER------------------**/
