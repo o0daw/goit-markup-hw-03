@@ -1,6 +1,18 @@
 
-*{ box-sizing: border-box; }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
+ul {
+  margin: 0;
+  padding-left: 0;
+}
 
 :root {
   --second-footer-color: #f4f4fd;
@@ -23,6 +35,13 @@ body {
 }
 .link {
   text-decoration: none;
+}
+.container {
+  width: 1158px;
+  padding-left: 0 px;
+  padding-right: 0 px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 /**--------------------HEADER------------------**/
