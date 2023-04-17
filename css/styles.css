@@ -118,13 +118,6 @@ body {
 
 /**---------------------HERO--------------------**/
 
-.test {
-  box-sizing: border-box;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  height: 120px;
-}
-
 .hero-main-index {
   background-color: var(--background-main);
 }
@@ -157,6 +150,13 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-text);
+}
+
+.text-picture-bottom {
+  box-sizing: border-box;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  height: 120px;
 }
 
 .hero-p {
