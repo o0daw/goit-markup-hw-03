@@ -260,8 +260,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-footer-color);
   width: 264px;
-height: 72px;
-padding-top: 17px;
+  height: 72px;
+  padding-top: 17px;
 }
 .logo-studio-foot {
   font-family: "Raleway", sans-serif;
@@ -273,6 +273,5 @@ padding-top: 17px;
   color: var(--second-footer-color);
 }
 .foot-txt {
-padding-top: 100px;
-
+  padding-top: 100px;
 }
