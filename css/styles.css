@@ -39,7 +39,8 @@ body {
   width: 1158px;
   padding-left: 0 px;
   padding-right: 0 px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
+  margin: auto;
 }
 
 /**--------------------HEADER------------------**/
@@ -117,6 +118,13 @@ body {
 
 /**---------------------HERO--------------------**/
 
+.test {
+  box-sizing: border-box;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  height: 120px;
+}
+
 .hero-main-index {
   background-color: var(--background-main);
 }
@@ -127,12 +135,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--body-background-color);
   background-color: var(--color-text);
-}
-.hero-img {
-  box-sizing: border-box;
-
-  align-items: center;
-  flex: column;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -218,6 +220,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+
+  padding-bottom: 8px;
+  padding-left: 16px;
 }
 
 .hero-main-bottom {
@@ -226,6 +232,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
+  padding-left: 16px;
 }
 .hero-img {
   display: flex;
@@ -233,15 +241,13 @@ body {
   justify-content: space-between;
   row-gap: 48px;
   column-gap: 24px;
+  margin-bottom: 120px;
 }
 
 /**--------------------FOOTER------------------**/
 
 .foot {
-  /* width: 1440px;
   height: 312px;
-  left: 0px;
-  top: 1764px; */
   background: #2e2f42;
 }
 
@@ -253,6 +259,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-footer-color);
+  width: 264px;
+height: 72px;
+padding-top: 17px;
 }
 .logo-studio-foot {
   font-family: "Raleway", sans-serif;
@@ -262,4 +271,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-footer-color);
+}
+.foot-txt {
+padding-top: 100px;
+
 }
