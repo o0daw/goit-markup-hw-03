@@ -119,6 +119,9 @@ body {
 
 .hero-list {
   display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
+  
 }
 .empty {
   visibility: hidden;
@@ -127,6 +130,7 @@ body {
   background-color: var(--background-main);
   padding: 188px 0;
   text-align: center;
+  margin-bottom: 120px;
 }
 .hero-h {
   width: 496px;
@@ -164,6 +168,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  padding-bottom: 8px;
 }
 
 .text-picture-bottom {
@@ -185,6 +190,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-text);
+  padding: 72px;
 }
 .hero-heading-fourth {
   font-size: 36px;
@@ -288,4 +294,18 @@ body {
 }
 .foot-txt {
   padding-top: 100px;
+}
+.section-img {
+  display: flex;
+  padding-left: auto;
+  padding-right: auto;
+  gap: 24px;
+}
+
+.section-second {
+  margin-bottom: 120px;
+}
+.sectiom-third {
+  margin-bottom: 120px;
+
 }
