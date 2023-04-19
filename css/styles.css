@@ -39,7 +39,7 @@ body {
   width: 1158px;
   padding: 0 15px;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   margin: auto;
 }
 
@@ -51,7 +51,6 @@ body {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 156px;
   margin-bottom: 96px;
-
 }
 
 .header-container {
@@ -121,7 +120,6 @@ body {
   display: flex;
   gap: 24px;
   margin-bottom: 120px;
-  
 }
 .empty {
   visibility: hidden;
@@ -199,9 +197,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-text);
+  padding-bottom: 72px;
+  padding-top: 120px;
 }
 .hero-photo {
   background-color: var(--second-footer-color);
+  padding: 120px;
 }
 .hero-finish-text {
   background-color: var(--body-background-color);
@@ -307,5 +308,15 @@ body {
 }
 .sectiom-third {
   margin-bottom: 120px;
+}
+.last-section {
+  display: flex;
 
+  gap: 24px;
+}
+.photo-bottom-txt {
+  box-sizing: border-box;
+  text-align: center;
+  height: 120px;
+  padding-top: 32px;
 }
