@@ -37,9 +37,9 @@ body {
 }
 .container {
   width: 1158px;
-  padding-left: 0 px;
-  padding-right: 0 px;
-  /* outline: 2px solid red; */
+  padding: 0 15px;
+
+  outline: 2px solid red;
   margin: auto;
 }
 
@@ -49,14 +49,13 @@ body {
   box-sizing: border-box;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 24px 156px;
   margin-bottom: 96px;
+
 }
 
 .header-container {
   display: flex;
-  padding-top: 24px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -80,7 +79,7 @@ body {
 }
 
 .navigation {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -94,7 +93,7 @@ body {
 }
 .header-list {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 .contact {
   display: flex;
@@ -118,16 +117,28 @@ body {
 
 /**---------------------HERO--------------------**/
 
+.hero-list {
+  display: flex;
+}
+.empty {
+  visibility: hidden;
+}
 .hero-main-index {
   background-color: var(--background-main);
+  padding: 188px 0;
+  text-align: center;
 }
 .hero-h {
+  width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--body-background-color);
   background-color: var(--color-text);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -138,6 +149,9 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
 }
 .hero-btn:is(:hover, :focus) {
   background-color: #404bbf;
@@ -184,7 +198,7 @@ body {
   background-color: var(--second-footer-color);
 }
 .hero-finish-text {
-  /* background-color: var(--body-background-color); */
+  background-color: var(--body-background-color);
 }
 
 /**--------------------HERO BTN------------------**/
