@@ -94,9 +94,11 @@ body {
 
 .navigation-section{
   color: #2e2f42;
+  padding: 24px 0;
 }
 .navigation-section:is(:hover, :focus) {
   color: var(--second-link-color);
+
   
   
 }
