@@ -120,7 +120,7 @@ body {
   margin-left: auto;
 }
 
-.header-contact: is(:hover, :focus) {
+.header-contact:is(:hover, :focus) {
   color: var(--second-link-color);
   
 }
