@@ -330,6 +330,8 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   background: #2e2f42;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-bottom {
