@@ -59,7 +59,7 @@ body {
 
 .header-container {
   display: flex;
-  padding: 24px 0;
+  
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -98,12 +98,12 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 .contact {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 
 .header-contact {
