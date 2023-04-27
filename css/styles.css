@@ -326,7 +326,7 @@ body {
   padding-left: auto;
   padding-right: auto;
   gap: 24px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .section-second {
@@ -336,7 +336,7 @@ body {
   padding-bottom: 120px;
   
 }
-.last-section {
+.four-section {
   display: flex;
 
   gap: 24px;
