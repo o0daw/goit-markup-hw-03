@@ -91,13 +91,19 @@ body {
   align-items: center;
   margin-right: auto;
 }
-.navigation:is(:hover, :focus) {
+
+.navigation-section{
+  color: #2e2f42;
+}
+.navigation-section:is(:hover, :focus) {
   color: var(--second-link-color);
+  
+  
 }
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  
 }
 .contact {
   display: flex;
@@ -113,8 +119,10 @@ body {
   color: #434455;
   margin-left: auto;
 }
-.header-contact:is(:hover, :focus) {
+
+.header-contact: is(:hover, :focus) {
   color: var(--second-link-color);
+  
 }
 .adress {
   font-style: normal;
