@@ -232,6 +232,7 @@ body {
 .hero-finish-text {
   background-color: var(--body-background-color);
   border-radius: 0px 0px 4px 4px;
+  width:calc((100% - 72px) / 4); ;
 }
 
 /**--------------------HERO BTN------------------**/
@@ -288,37 +289,7 @@ body {
   column-gap: 24px;
 }
 
-/**--------------------FOOTER------------------**/
 
-.foot {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background: #2e2f42;
-}
-
-.footer-bottom {
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-footer-color);
-  width: 264px; 
-  margin-top: 17px;
-}
-.logo-studio-foot {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--second-footer-color);
-}
-/* .foot-txt {
-  padding-top: 100px;
-} */
 
 /**--------------------SECTION------------------**/
 
@@ -351,3 +322,36 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
+
+
+/**--------------------FOOTER------------------**/
+
+.foot {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #2e2f42;
+}
+
+.footer-bottom {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-footer-color);
+  width: 264px; 
+  margin-top: 17px;
+}
+.logo-studio-foot {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-footer-color);
+}
+/* .foot-txt {
+  padding-top: 100px;
+} */
