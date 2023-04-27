@@ -231,6 +231,7 @@ body {
 }
 .hero-finish-text {
   background-color: var(--body-background-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /**--------------------HERO BTN------------------**/
