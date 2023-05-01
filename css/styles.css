@@ -354,7 +354,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-footer-color);
-  margin: 16px;
+  margin-bottom: 16px;
 }
 /* .foot-txt {
   padding-top: 100px;
