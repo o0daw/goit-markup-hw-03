@@ -54,7 +54,6 @@ body {
   box-sizing: border-box;
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
-  margin-bottom: 76px;
 }
 
 .header-container {
@@ -355,7 +354,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
-  margin-right: 76px;
+  /* margin-right: 76px; */
   display: inline-block;
   margin-bottom: 16px;
 }
