@@ -181,7 +181,6 @@ body {
 .hero-btn:is(:hover, :focus) {
   background-color: #404bbf;
   color: var(--second-color-buttom);
-  border: 1px solid transparent;
 }
 
 .first-heading {
@@ -255,6 +254,7 @@ body {
 .hero-button:is(:hover, :focus) {
   background-color: var(--second-link-color);
   color: var(--second-color-buttom);
+  border: 1px solid transparent;
 }
 .btn-style {
   display: flex;
