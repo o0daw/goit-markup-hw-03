@@ -347,6 +347,19 @@ body {
   width: 264px; 
   margin-top: 17px;
 }
+.foter-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .logo-studio-foot {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -355,8 +368,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-footer-color);
-  margin-bottom: 16px;
 }
+
 /* .foot-txt {
   padding-top: 100px;
 } */
