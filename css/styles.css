@@ -53,8 +53,8 @@ body {
 .header-box {
   box-sizing: border-box;
   border-bottom: 1px solid #e7e9fc;
-  /* padding: 24px 0; */
-  /* margin-bottom: 96px; */
+  padding: 24px 0;
+  margin-bottom: 76px;
 }
 
 .header-container {
@@ -70,7 +70,7 @@ body {
   color: var(--logo-color);
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin: 16px; */
 }
 
 .logo-studio {
