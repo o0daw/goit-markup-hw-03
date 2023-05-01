@@ -182,6 +182,7 @@ body {
 .hero-btn:is(:hover, :focus) {
   background-color: #404bbf;
   color: var(--second-color-buttom);
+  border: 1px solid transparent;
 }
 
 .first-heading {
